@@ -6,9 +6,9 @@ color= "red";
 width_of_line=5;
 canvas.addEventListener("mousedown",my_mousedown);
 function my_mousedown(e) {
- color = document.getElementById("color").innerHTML.value;
- radius = document.getElementById("radius").innerHTML.value;
- width_of_line = document.getElementById("width").innerHTML.value;
+ color = document.getElementById("color").value;
+ radius = document.getElementById("radius").value;
+ width_of_line = document.getElementById("width").value;
  mouseEvent="mouseDown";
 }
 canvas.addEventListener("mouseup",my_mouseup);
